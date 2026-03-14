@@ -21,27 +21,16 @@ async function login_ebs(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Oracle E-Business Suite selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/login-ebs`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('login_ebs complete', result);
-      return result;
-
+      // TODO: Replace with actual Oracle E-Business Suite selectors
+    // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/login-ebs`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('login_ebs complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-login_ebs-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -61,27 +50,16 @@ async function navigate_responsibility(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Oracle E-Business Suite selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/navigate-responsibility`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('navigate_responsibility complete', result);
-      return result;
-
+      // TODO: Replace with actual Oracle E-Business Suite selectors
+    // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/navigate-responsibility`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('navigate_responsibility complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-navigate_responsibility-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -101,27 +79,16 @@ async function submit_requisition(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Oracle E-Business Suite selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/submit-requisition`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('submit_requisition complete', result);
-      return result;
-
+      // TODO: Replace with actual Oracle E-Business Suite selectors
+    // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/submit-requisition`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('submit_requisition complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-submit_requisition-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -141,27 +108,16 @@ async function approve_po(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Oracle E-Business Suite selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/approve-po`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('approve_po complete', result);
-      return result;
-
+      // TODO: Replace with actual Oracle E-Business Suite selectors
+    // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/approve-po`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('approve_po complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-approve_po-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -181,27 +137,16 @@ async function run_concurrent_request(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual Oracle E-Business Suite selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/run-concurrent-request`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('run_concurrent_request complete', result);
-      return result;
-
+      // TODO: Replace with actual Oracle E-Business Suite selectors
+    // await page.goto(`${process.env.ORACLE_EBS_URL}/path/to/run-concurrent-request`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('run_concurrent_request complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-run_concurrent_request-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
