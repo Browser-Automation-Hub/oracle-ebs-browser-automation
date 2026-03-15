@@ -1,7 +1,7 @@
 {
-  "name": "oracle-ebs-browser-automation",
+  "name": "@browser-automation-hub/oracle-ebs-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for Oracle E-Business Suite (EBS) — automate procurement, AP/AR, HR workflows, and extract financial data from Oracle Forms and self-service portals.",
+  "description": "Browser automation for Oracle E-Business Suite — automate procurement, AP/AR, HR workflows, and financial data extraction",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -15,7 +15,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -34,5 +34,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/oracle-ebs-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/oracle-ebs-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
